@@ -1,0 +1,37 @@
+$font-stack: 'Titillium Web', sans-serif;;
+$cor-preto: #000000;
+
+.font{
+    font-family: $font-stack;
+}
+    
+h1{
+    font-size: 40px;
+    @extend .font;
+    color: $cor-preto;
+}
+h2{
+    font-size: 35px;
+    @extend .font;
+}
+h3{
+    font-size: 30px;
+    @extend .font;
+}
+h4{
+    font-size: 25px;
+    @extend .font;
+}
+h5{
+    font-size: 20px;
+    @extend .font;
+}
+h6{
+    font-size: 15px;
+    @extend .font;
+}
+p{
+    font-size: 16px;
+    @extend .font;
+    color: $cor-preto;
+}
